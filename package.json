@@ -1,0 +1,22 @@
+{
+  "name": "lista-de-contatos",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Luan",
+  "type": "commonjs",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "node --import=tsx --watch ./src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "helmet": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
