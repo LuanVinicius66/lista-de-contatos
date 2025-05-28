@@ -9,3 +9,9 @@ Planejamento de rotas:
 - POST /contato { name: "Luan" }
 - GET /contatos
 - DELETE /contato?name=Luan
+
+MVC
+
+ - Model - Trabalhar com esses dados o necessário, inserir no banco de dados caso seja um POST, por exemplo.
+ - View - Exibir a resposta dessa requisição.
+ - Controller - Receber e validar os dados, enviar ao Model.
