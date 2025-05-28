@@ -1,5 +1,5 @@
 import { RequestHandler } from "express";
-import { createContact, deleteContact, getContacts } from "../models/contact";
+import { createContact, deleteContact, getContacts } from "../services/contact";
 
 export const getContactsController: RequestHandler = async (req, res) => {
   let list = await getContacts();
